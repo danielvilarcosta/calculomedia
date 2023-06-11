@@ -1,0 +1,12 @@
+let num1;
+let num2;
+let num3;
+let media;
+alert("Digite o primeiro número");
+num1 = prompt();
+alert("Digite o segundo número");
+num2 = prompt();
+alert("Digite o terceiro número");
+num3 = prompt();
+media = (parseInt(num1) + parseInt(num2) + parseInt(num3)) / 3;
+alert(media);
